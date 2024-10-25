@@ -1,0 +1,99 @@
+body {
+    background-color: #FFFBE6; /* Light yellow background */
+    font-family: 'Lexend', sans-serif;
+    color: #333;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    max-width: 800px; /* Set a max width for better readability */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox for responsive layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+h1 {
+    color: #FFB703; /* Bright yellow */
+    text-align: center; /* Center the title */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Increase font size for better readability */
+}
+
+button {
+    background-color: #FFB703; /* Yellow */
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #FFD166; /* Light yellow */
+}
+
+.profile-card {
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px;
+    margin-bottom: 20px; /* More space between cards */
+    background-color: #F6F7F8; /* Light gray */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.note {
+    margin-bottom: 20px; /* Space between notes */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #F9F9F9; /* Slightly darker gray */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+    font-size: 18px; /* Increase font size for note title */
+    font-weight: bold; /* Make title bold */
+    margin-bottom: 5px; /* Space between title and content */
+}
+
+.note-content {
+    font-size: 14px; /* Adjust content font size */
+    color: #666; /* Darker color for content text */
+}
+
+a {
+    color: #FFB703;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller title font size */
+    }
+
+    button {
+        padding: 8px 12px; /* Adjust button size */
+    }
+}

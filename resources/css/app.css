@@ -1,0 +1,55 @@
+body {
+    background-color: #FFFBE6; /* Light yellow background */
+    font-family: 'Lexend', sans-serif;
+    color: #333;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #FFB703; /* Bright yellow */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFB703; /* Yellow */
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD166; /* Light yellow */
+}
+
+.profile-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #F6F7F8; /* Light gray */
+}
+
+a {
+    color: #FFB703;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
